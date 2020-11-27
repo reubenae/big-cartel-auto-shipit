@@ -36,7 +36,7 @@ Obviously replacing `exampledomain` and `Password666BatteryHorseStaple` with you
 Then run the following command:
 
 ```sh
-yarn && clean && node index.js
+yarn && clear && node index.js
 ```
 
 This will install the dependencies, clean your terminal, and run the script. As this hasn't yet been onboarded as an official plugin for big cartel, to avoid killing their API it runs one request at a time.

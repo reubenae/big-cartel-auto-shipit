@@ -23,10 +23,10 @@ Download dispatched orders as a report from royal mail click&drop, ensuring that
 
 ### Auth input data
 
-You'll also need to add a `creds.txt` file in the root - this is for the HTTP basic authentication (see `requests.js` for its usage). This needs to be base64 encoded of your domain and password separated by a colon. DO NOT COMMIT IT! The file is in the gitignore, so make sure you don't mess up if contributing. To create it, run this in a javascript environment (e.g. browser console):
+You'll also need to add a `creds.txt` file in the root - this is for the HTTP basic authentication (see `requests.js` for its usage). This needs to be base64 encoded of your domain and password separated by a colon. **DO NOT COMMIT IT!** The file is in the gitignore, so make sure you don't mess up if contributing. To create it, run this in a javascript environment (e.g. browser console):
 
 ```javascript
-`btoa('exampledomain:Password666BatteryHorseStaple')` // "TmljZVRyeTpodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWRRdzR3OVdnWGNR"
+btoa('exampledomain:Password666BatteryHorseStaple') // "TmljZVRyeTpodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWRRdzR3OVdnWGNR"
 ```
 
 Obviously replacing `exampledomain` and `Password666BatteryHorseStaple` with your details.
